@@ -1,6 +1,7 @@
 # Hospitality Process Digitalization
 
-##Overview
+## Overview
+
 A web application to streamline group accommodation in hostels. Users can upload CSV files with group and hostel information, and the app allocates rooms efficiently while ensuring group members stay together and respecting gender-specific accommodations.
 
 ## Installation
@@ -23,24 +24,30 @@ A web application to streamline group accommodation in hostels. Users can upload
  ```bash
      python app.py
 ```
-##Usage
+
+## Usage
+
 - Open your web browser and navigate to http://127.0.0.1:5000.
 - Upload the Groups.csv and Hostels.csv files.
 - View the room allocation results as the downloadable csv file
 
-##Technologies used
+## Technologies used:
+
 1. Python
 2. Flask
 3. HTML/CSS
 
-##File Description
+
+## File Description
+
 - allocation.py: Contains the room allocation logic.
 - app.py: Main Flask application file.
 - requirements.txt: Lists the Python dependencies needed for the project.
 - templates/index.html: HTML file for the main upload interface.
 - uploads/: Directory containing sample CSV files for groups and hostels, as well as the output room allocation file.
+- 
 
-##Screenshots for visually see the output
+## Screenshots for visually see the output
 
 ![WhatsApp Image 2024-07-04 at 11 29 52_0798c87b](https://github.com/kranthi90597/hospitality-process-digitalization/assets/150162401/a9a7c0a4-76a1-4add-9c4e-024344cd8489)
 
@@ -52,7 +59,8 @@ A web application to streamline group accommodation in hostels. Users can upload
 
 ![WhatsApp Image 2024-07-04 at 11 34 37_a3276d43](https://github.com/kranthi90597/hospitality-process-digitalization/assets/150162401/ab977985-a7b7-4d2e-879f-6ec66f0bbab9)
 
-##Contact
+
+## Contact
 
 For any questions or feedback, please contact:
 - Email: kranthi90597@gmail.com
